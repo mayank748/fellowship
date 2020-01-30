@@ -5,5 +5,5 @@ if [ ${#user} -ge 3 ]
 then
 echo "“Hello" $user ", How are you?”"
 else
-echo enter the username with length greater than 3
+echo "enter the username with length greater than 3"
 fi
