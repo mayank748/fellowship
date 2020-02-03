@@ -110,7 +110,7 @@ echo "pc wines"
 exit
 fi
 
-if [ "$ret" = "0" ] && [ "$count" = "8" -o "$pc" = "8" ]
+if [ "$ret" = "0" ] && [ "$count" = "5" -o "$pc" = "5" ]
 then
 echo "match draw or no own wines"
 exit
