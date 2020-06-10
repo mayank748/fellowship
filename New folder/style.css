@@ -1,0 +1,89 @@
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url("E6A3GQm.jpg");
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+#container{
+    margin:20px auto;
+    width: 1000px;
+    height: 550px;
+    background-color: darkgray;
+    border-radius: 5px;
+}
+#calculator{
+    width:330px;
+    height: 520px;
+    background-color:transparent;
+    margin:0 auto;
+    top:20px;
+    position: relative;
+    border-radius: 5px;
+    border:1px solid black;
+    box-shadow:0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#result{
+    background-color:darkslategrey;
+    height: 120px;
+}
+#history{
+    font-size: 20px;
+    height: 40px;
+    text-align: right;
+    margin:0 20px;
+    padding-top: 20px;
+}
+#current{
+    font-size:30px;
+    text-align: right;
+    margin:0 20px;
+}
+#keyboard{
+    border:0.5px solid black;
+    border-radius: 5px;
+    height: 400px;
+}
+.operator,.number{
+    width: 50px;
+    height: 50px;
+    margin:15px;
+    float: left;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.operator:active,.number:active{
+    font-size: 10px;
+}
+.operator:focus,.number:focus{
+    outline: none;
+}
+button:nth-child(1){
+    background-color: cadetblue;
+}button:nth-child(2){
+    background-color: cadetblue;
+}button:nth-child(3){
+    background-color: cadetblue;
+}
+button:nth-child(17){
+    background-color: firebrick;
+}
+button:nth-child(18){
+    background-color:cadetblue;
+}
+button:nth-child(4){
+    background-color: gray;
+}
+button:nth-child(8){
+    background-color:  gray;
+}
+button:nth-child(12){
+    background-color:  gray;
+}
+button:nth-child(16){
+    background-color:  gray;
+}
+button:nth-child(20){
+    background-color: seagreen;
+}
